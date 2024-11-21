@@ -1,0 +1,113 @@
+/**************************** header styles *****************************/
+
+header{
+    background-image: url("../../html_advanced/images_web_dev/Header.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header > a > img{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.menu-container{
+    float: right;
+    width: 40%;
+}
+
+.menu-container > ul {
+    list-style-type: none;
+}
+
+.menu-container > ul > li{
+    display: inline-block;
+    padding-right: 20px;
+}
+
+.menu-container > ul > li > a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.header-description > h1{
+    text-align: center;
+    font-size: 120px;
+    margin-top: 140px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.header-description > div {
+    width: 40%;
+    margin: 0 auto;
+}
+
+.header-description > div > span{
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #ffffff;
+    padding: 20px;
+}
+
+.header-description > div > span:first-of-type{
+    margin-left: 120px;
+}
+
+.header-description > button{
+    width: 162px;
+    height: 44px;
+    background-color: #C271FF;
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #ffffff;
+    border: 0;
+    display: block;
+    margin: 50px auto;
+}
+
+.bottom-header{
+    width: 100%;
+    overflow: hidden;
+}
+
+.bottom-header >h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #ffffff;
+    font-family: sans-serif;
+}
+
+.bottom-header >h2 > span{
+    color: #C271FF;
+    
+}
+
+
+.persons-container{
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    display: block;
+}
+
+.persons-container .person{
+    width: 24%;
+    display: inline-block;
+}
+
+.persons-container .person > img{
+    display: block;
+    margin: 0 auto;
+}
+
+.persons-container .person > h3 , .persons-container .person > p {
+    text-align: center;
+}
+
+/**************************** header styles *****************************/
